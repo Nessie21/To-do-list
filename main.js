@@ -47,7 +47,8 @@ function addTask() {
         }
 
         function checkTask(){
-        taskName.classList.add('strike');
+        if(this.checked) {taskName.classList.add('strike');} else {taskName.classList.remove('strike')};
+        
         } ;
 
 
