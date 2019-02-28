@@ -42,9 +42,27 @@ function addTask() {
         }
 
         function editTask(){
-        taskName.innerText = '';
-        taskName.innerText = input.value;
-        }
+        
+        var editInput = document.createElement('input');
+        editInput.classList.add('edit-input');
+        task.appendChild(editInput);    
+        editInput.value = taskName.innerHTML;
+        var applyButton = document.createElement('button');
+        applyButton.classList.add('apply-button');
+        applyButton.innerText = 'apply';
+        task.appendChild(applyButton)
+        applyButton.addEventListener('click', applyChanges);
+
+        function applyChanges(){
+        taskName.innerText = editInput.value;
+        editInput.value = '';
+        task.removeChild(editInput);
+        task.removeChild(applyButton);
+        
+        
+    
+        };
+    }
 
         function checkTask(){
         if(this.checked) {taskName.classList.add('strike');} else {taskName.classList.remove('strike')};

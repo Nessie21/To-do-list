@@ -1,3 +1,126 @@
+body{
+	background: url(http://wallpoper.com/images/00/31/33/51/black-background_00313351.jpg);
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+	color: whitesmoke;
+	
+}
+.title{
+	color: rgb(226, 221, 202);
+	font-family: fantasy;
+	font-size: 30px;
+	font-weight: bold;
+	position: absolute;
+	top: 42%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+}
+
 .strike{
 	text-decoration: line-through;
+	color: rgb(47, 180, 47);
+}
+ #inputTask{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 2px double  rgb(184, 165, 143);
+	height: 15px;
+	width: 400px;
+
+
+ }
+
+ #addTask{
+	position: absolute;
+	left: 62%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	border: 2px solid black;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-weight: bold;
+	padding: 1px;
+	font-size: 12px;
+	width: 35px;
+	height: 21px;
+	background-color: rgb(184, 165, 143);
+ }
+
+ #addTask:hover{
+	box-shadow: whitesmoke 1px 1px;
+ }
+
+ #addTask:active{
+	background-color: whitesmoke;
+ }
+
+ .edit-button{
+	border: 2px solid black;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-weight: bold;
+	padding: 1px;
+	font-size: 12px;
+	width: 40px;
+	height: 21px;
+	background-color: rgb(184, 165, 143);
+	margin: 5px;
+ }
+
+ .delete-button{
+	border: 2px solid black;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-weight: bold;
+	padding: 1px;
+	font-size: 12px;
+	width: 55px;
+	height: 21px;
+	background-color: rgb(184, 165, 143);
+	margin: 5px;
+ }
+
+ .edit-button:hover{
+	box-shadow: whitesmoke 1px 1px;
+ }
+
+ .edit-button:active{
+	background-color: whitesmoke;
+ }
+ .delete-button:hover{
+	box-shadow: whitesmoke 1px 1px;
+ }
+
+ .delete-button:active{
+	background-color: whitesmoke;
+ }
+
+ .apply-button{
+	border: 2px solid black;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-weight: bold;
+	padding: 1px;
+	font-size: 12px;
+	width: 55px;
+	height: 21px;
+	background-color: rgb(184, 165, 143);
+	margin: 5px; 
+ }
+
+ .apply-button:hover{
+	box-shadow: whitesmoke 1px 1px;
+ }
+
+ .apply-button:active{
+	background-color: whitesmoke;
+ }
+
+.check{
+	position: absolute;
+	border: 2px solid black;
+	width: 70px;
+	height: 25px;
+}
+
+.check:checked{
+	
 }
