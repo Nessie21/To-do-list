@@ -70,9 +70,7 @@ function addTask() {
         } ;
 
 
-    } else {
-        console.log("Wpisz coś");
-    }
+    } 
 }
 
 

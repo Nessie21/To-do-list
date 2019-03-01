@@ -25,7 +25,7 @@ body{
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	border: 2px double  rgb(184, 165, 143);
+	border: 2px double  rgb(184, 165, 143, 0.7);
 	height: 15px;
 	width: 400px;
 
@@ -44,7 +44,7 @@ body{
 	font-size: 12px;
 	width: 35px;
 	height: 21px;
-	background-color: rgb(184, 165, 143);
+	background-color: rgb(184, 165, 143, 0.7);
  }
 
  #addTask:hover{
@@ -63,8 +63,11 @@ body{
 	font-size: 12px;
 	width: 40px;
 	height: 21px;
-	background-color: rgb(184, 165, 143);
+	background-color: rgb(184, 165, 143, 0.7);
 	margin: 5px;
+	position: absolute;
+	top: 50px;
+	left: 10px;
  }
 
  .delete-button{
@@ -75,8 +78,11 @@ body{
 	font-size: 12px;
 	width: 55px;
 	height: 21px;
-	background-color: rgb(184, 165, 143);
+	background-color: rgb(184, 165, 143, 0.7);
 	margin: 5px;
+	position: absolute;
+	top: 50px;
+	left: 60px;
  }
 
  .edit-button:hover{
@@ -102,8 +108,11 @@ body{
 	font-size: 12px;
 	width: 55px;
 	height: 21px;
-	background-color: rgb(184, 165, 143);
+	background-color: rgb(184, 165, 143, 0.7);
 	margin: 5px; 
+	position: absolute;
+	top: 40px;
+	left: 250px;
  }
 
  .apply-button:hover{
@@ -114,12 +123,44 @@ body{
 	background-color: whitesmoke;
  }
 
-.check{
+.edit-input{
+	border: 2px double  rgb(184, 165, 143, 0.7);
+	height: 15px;
+	width: 200px;
+	position: absolute;
+	top: 15px;
+	left: 180px;
+
+}
+
+.task{
+	display: block;
+	border: 2px groove whitesmoke;
+	width: 400px;
+	height: 90px;
+	position: relative;
+}
+
+.task-name{
+	position: absolute;
+	top:0px;
+	left: 18px;
+
+}
+
+
+
+
+ .check{
 	position: absolute;
 	border: 2px solid black;
 	width: 70px;
 	height: 25px;
+	position: absolute;
+	top: 50px;
+	left: 130px;
 }
+
 
 .check:checked{
 	
