@@ -139,6 +139,7 @@ body{
 	width: 400px;
 	height: 90px;
 	position: relative;
+	margin: 5px;
 }
 
 .task-name{
@@ -162,6 +163,3 @@ body{
 }
 
 
-.check:checked{
-	
-}
